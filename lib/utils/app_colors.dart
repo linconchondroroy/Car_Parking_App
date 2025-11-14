@@ -9,5 +9,6 @@ class AppColors {
   static const third = Color(0xFF191820);
   static const buttonPrimary = Color(0xFFE8505B);
   static const buttonSecondary = Color(0xFF);
+  static const Skip = Color(0xFFB7B8B8);
 
 }
