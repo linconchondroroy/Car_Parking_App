@@ -8,9 +8,12 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       home: Scaffold(
-        body: Center(
-
-          child: Image.asset("assets/tradial_logo.png"),
+        body: Column(
+          children: [
+            Center(
+              child: Image.asset("assets/tradial_logo.png"),
+            ),
+          ],
         ),
       ),
     );
