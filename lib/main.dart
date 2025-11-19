@@ -1,4 +1,6 @@
-import 'package:car_parking_app/utils/app_colors.dart';
+
+
+import 'package:car_parking_app/views/screen/common_screen/splash/splash_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -12,7 +14,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return MaterialApp(
+      home: SplashScreen(),
     );
   }
 }
