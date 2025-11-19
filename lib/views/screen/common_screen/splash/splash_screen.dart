@@ -9,6 +9,7 @@ class SplashScreen extends StatelessWidget {
     return GetMaterialApp(
       home: Scaffold(
         body: Center(
+
           child: Image.asset("assets/tradial_logo.png"),
         ),
       ),
