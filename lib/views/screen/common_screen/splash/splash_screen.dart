@@ -1,3 +1,4 @@
+import 'package:car_parking_app/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -8,13 +9,10 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       home: Scaffold(
-        body: Column(
-          children: [
-            Center(
-              child: Image.asset("assets/tradial_logo.png"),
-            ),
-          ],
+        body: Center(
+          child: Image.asset("assets/images/tradial_logo.png")
         ),
+        backgroundColor: AppColors.primaryColor,
       ),
     );
   }
