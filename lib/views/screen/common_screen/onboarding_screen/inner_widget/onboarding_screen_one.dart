@@ -10,16 +10,20 @@ class OnboardingScreenOne extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: AppColors.primaryColor,
-          title: Text("Skip",style: TextStyle(color: AppColors.grey),),
+        appBar: AppBar(backgroundColor: AppColors.primaryColor,
+        title: Align(
+          alignment: Alignment.bottomRight,
+          child: Text("Skip",style: TextStyle(color: AppColors.grey),),
         ),
-        backgroundColor: AppColors.primaryColor,
+        ),
         body: Column(
           children: [
-            Row(
-
-            )
+            Center(
+              child: Image.asset("assets/images/onboarding_image_one.jpg"),
+            ),
+            SizedBox(height: 10,),
+            Text("Why Choose Us",style: TextStyle(fontSize: 30, color: Colors.white),),
+            Text("We make parking easy, secure, and stress-free. Whether you're driving a car or a truck, find and reserve reliable parking spots in real-time, wherever you are. With our simple booking and payment system, your parking experience is just a tap away!"),
           ],
         ),
       ),
