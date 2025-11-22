@@ -22,7 +22,7 @@ class OnboardingScreenOne extends StatelessWidget {
               child: Image.asset("assets/images/onboarding_image_one.jpg"),
             ),
             SizedBox(height: 10,),
-            Text("Why Choose Us",style: TextStyle(fontSize: 30, color: Colors.white),),
+            Text("Why Choose Us",style: TextStyle(fontSize: 30, color: Colors.red),),
             Text("We make parking easy, secure, and stress-free. Whether you're driving a car or a truck, find and reserve reliable parking spots in real-time, wherever you are. With our simple booking and payment system, your parking experience is just a tap away!"),
           ],
         ),
